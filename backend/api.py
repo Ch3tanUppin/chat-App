@@ -2,6 +2,7 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List
+from backend.pdf_loader import load_pdf
 import PyPDF2
 
 app = FastAPI()

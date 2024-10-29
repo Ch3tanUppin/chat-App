@@ -4,3 +4,8 @@ PyPDF2
 requests
 streamlit
 python-dotenv
+
+httpx  # For testing FastAPI applications
+pytest
+pytest-asyncio  # If you're using async in your FastAPI app
+
